@@ -51,7 +51,7 @@ advertisers, or use it to track you across other apps or websites.
 - **Apple** (APNs and Live Activity infrastructure) receives push
   tokens and Live Activity payloads as required by iOS to update your
   lock screen. Apple's privacy terms apply to this transit.
-- **Superwall** (when paywalls ship) processes anonymous funnel
+- **Superwall** processes anonymous funnel
   analytics so we can tell if a paywall is working. Superwall publishes
   its own privacy details in its SDK.
 - **Resend** delivers feedback submissions to our inbox as email.
