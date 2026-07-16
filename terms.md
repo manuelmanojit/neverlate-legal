@@ -17,7 +17,7 @@ use the app.
 
 ## 1. Eligibility
 
-You must be at least 16 years old to use NeverLate. By using the app you
+You must be at least 13 years old to use NeverLate. By using the app you
 represent that you meet this requirement and that the information you
 provide to us is accurate.
 
@@ -81,7 +81,7 @@ to the app.
   confirmation of purchase. The subscription **automatically renews** for
   successive one-month periods unless you cancel it at least **24 hours
   before** the end of the current period. Your account is charged for
-  renewal within 24 hours before the end of the current period.
+  renewal within 24 hours prior to the end of the current period.
 - **How to cancel:** You can manage or cancel your subscription at any
   time in your **App Store account settings** (Settings → your name →
   Subscriptions on your device). Cancelling stops future renewals; it
