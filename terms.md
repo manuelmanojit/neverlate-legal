@@ -1,6 +1,6 @@
 # NeverLate — Terms of Service
 
-**Effective date:** July 15, 2026
+**Effective date:** September 5, 2026
 
 **Contact:** maunamove@gmail.com
 
@@ -72,11 +72,16 @@ to the app.
   currency conversion of any single figure. The price that applies to you
   is the one displayed to you at the time of purchase, and that displayed
   price always governs.
-- **Free trial:** New subscribers receive a **7-day free trial**. If you
-  do not cancel at least 24 hours before the trial ends, the subscription
-  begins and you will be charged the applicable subscription price shown
-  to you at purchase. Any unused portion of a free trial is forfeited if
-  you purchase the subscription before the trial ends.
+- **Free trial:** Eligible new subscribers receive a **7-day free trial**.
+  Apple determines eligibility and grants the introductory offer once per
+  Apple ID per subscription group — so if you have used the trial before,
+  including under a NeverLate account you have since deleted, Apple will
+  not grant it again and your subscription begins as a paid one. Whether a
+  trial applies to you is always shown before you confirm the purchase. If
+  you do not cancel at least 24 hours before the trial ends, the
+  subscription begins and you will be charged the applicable subscription
+  price shown to you at purchase. Any unused portion of a free trial is
+  forfeited if you purchase the subscription before the trial ends.
 - **Auto-renewal:** Payment is charged to your Apple ID account at
   confirmation of purchase. The subscription **automatically renews** for
   successive one-month periods unless you cancel it at least **24 hours
@@ -130,9 +135,10 @@ Terms grant you no rights in our intellectual property.
 
 NeverLate relies on third-party services to operate, including Apple
 (App Store, Sign in with Apple, push notifications), Supabase (data
-storage and authentication), and Superwall (subscription and paywall
-management). Your use of the app may be subject to those parties' terms.
-We are not responsible for third-party services we do not control.
+storage and authentication), Superwall (subscription and paywall
+management), and Resend (email delivery). Your use of the app may be
+subject to those parties' terms. We are not responsible for third-party
+services we do not control.
 
 ## 10. Disclaimers
 
@@ -169,9 +175,9 @@ limitation of liability, governing law) continue to apply.
 
 We may update, modify, or discontinue features of the app. We may also
 update these Terms from time to time. When we make material changes, we
-will update the "Effective date" above and, where appropriate, notify you
-in the app. Your continued use of the app after changes take effect means
-you accept the updated Terms.
+will update the "Effective date" above and notify you **by email or in the
+app** before they take effect. Your continued use of the app after changes
+take effect means you accept the updated Terms.
 
 ## 14. Governing law and disputes
 
