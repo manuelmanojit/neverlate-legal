@@ -1,6 +1,6 @@
 # NeverLate — Privacy Policy
 
-**Effective date:** July 15, 2026
+**Effective date:** September 5, 2026
 
 **Data controller:** Manuel Montagna, Copenhagen, Denmark
 
@@ -30,6 +30,15 @@ your rights over that data.
   actions inside the app ("you tapped Save," "fetched timelines," etc.),
   and your user ID if you were signed in. We do not capture passwords,
   payment details, or the content of any text field.
+- **Onboarding progress** — while you go through onboarding, and before
+  any account exists, we record which step you reached, your app and iOS
+  version, and whether you allowed notifications. This is stored against a
+  random identifier generated on your device, not against your name or
+  email. If you go on to create an account, the record is linked to it so
+  we can tell a completed sign-up apart from an abandoned one. We use this
+  only to find where people get stuck and improve onboarding. It never
+  includes your answers to the onboarding questions — only which screen
+  you reached.
 - **Notification tokens** — Apple push tokens used only to deliver
   notifications to your device: (a) an anonymous, per-session token that
   updates the Live Activity on your lock screen, and (b) a device token
@@ -61,6 +70,9 @@ our legal bases are:
 - **To keep the app reliable and secure** — recording diagnostics,
   preventing abuse, and fixing errors: *our legitimate interests* in
   operating a stable, secure service (Art. 6(1)(f)).
+- **To improve onboarding** — seeing which step people reach so we can fix
+  the places they get stuck: *our legitimate interests* in making the app
+  easier to start using (Art. 6(1)(f)).
 - **To respond to your feedback** — replying to messages you send us:
   *performance of a contract / our legitimate interests*.
 - **To meet legal obligations** — where the law requires us to retain or
@@ -78,9 +90,9 @@ Each acts on our instructions:
 
 - **Supabase** (our backend, hosted on AWS) stores your account, your
   user content, your profile picture, your feedback submissions, your
-  device notification token, and your subscription status. Each row is
-  protected by Row Level Security, so only you (signed in as yourself) can
-  read or modify your own data.
+  device notification token, your onboarding progress record, and your
+  subscription status. Each row is protected by Row Level Security, so
+  only you (signed in as yourself) can read or modify your own data.
 - **Apple** processes your purchases and subscriptions (Apple is the
   seller and handles all billing), and its APNs / Live Activity
   infrastructure delivers push notifications and lock-screen updates.
@@ -90,7 +102,8 @@ Each acts on our instructions:
   subscription lifecycle events (trial start, renewal, cancellation) so
   that paid features unlock correctly and we can measure whether the
   paywall works. Superwall publishes its own privacy details in its SDK.
-- **Resend** delivers your feedback submissions to our inbox as email.
+- **Resend** delivers your feedback submissions to our inbox as email, and
+  sends the welcome email when you create an account.
 
 ## 4. International data transfers
 
@@ -110,13 +123,17 @@ on the safeguards in place.
 - **You can delete your account from inside the app**: Settings →
   Account → Delete Account. This permanently removes your authentication
   record, every row of your user content, your profile picture, your
-  notification tokens, and your subscription record. A minimal record of
-  the deletion (anonymous timestamp and reason, if you provided one) is
-  retained for our own analytics; it is not linked to your identity after
-  deletion.
+  notification tokens, and your subscription record. If you signed in with
+  Apple, we also ask Apple to revoke the sign-in token that connected your
+  Apple ID to NeverLate.
+- Two records deliberately survive deletion, and **neither is linked to
+  you** afterwards: a minimal note that a deletion happened (timestamp,
+  and the plan you were on), and your onboarding progress record with the
+  link to your account removed. Both are kept only as anonymous
+  statistics.
 - Feedback submissions you send are retained as long as we may need them
-  to follow up. You can ask us to delete them at the contact address
-  above.
+  to follow up, including any screenshot you attached. You can ask us to
+  delete them at the contact address above.
 - Diagnostic / error records are retained for up to 90 days.
 
 ## 6. Your rights
@@ -129,6 +146,8 @@ users in the EU/UK, these include the right to:
 - **erase** your data ("right to be forgotten");
 - **restrict** or **object to** our processing;
 - **data portability** — receive your data in a portable format;
+- **object** to processing based on our legitimate interests, including
+  the onboarding analytics described above;
 - **withdraw consent** at any time (e.g. by turning off notifications),
   without affecting processing done before withdrawal.
 
@@ -146,8 +165,9 @@ If you are a California resident, you have the right to know what personal
 information we collect, to request its deletion or correction, and to not
 be discriminated against for exercising these rights. In the past 12
 months we have collected the categories described in Section 1 —
-identifiers (name, email, user ID), customer records, app-activity /
-diagnostic data, and commercial information (subscription status).
+identifiers (name, email, user ID), customer records, app-activity and
+diagnostic data (including onboarding progress), and commercial
+information (subscription status).
 
 We do **not** and will not **sell** your personal information, and we do
 **not** **share** it for cross-context behavioral advertising, as those
@@ -171,6 +191,12 @@ but we treat your data as if it were our own.
 
 ## 10. Changes
 
-If we change this policy in a way that affects your rights, we will update
-the effective date above and notify you in-app before the change takes
-effect.
+We may update this policy from time to time. When we do, we will change the
+effective date at the top and publish the updated version at this address,
+so the current policy is always the one you see here.
+
+If a change materially affects your rights — for example if we start
+collecting a new category of data, keep it for longer, or use a new
+processor — we will tell you directly, by email or in the app, before it
+takes effect. Where the law requires your consent for the change, we will
+ask for it rather than assume it.
