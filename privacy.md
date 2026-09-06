@@ -131,6 +131,9 @@ on the safeguards in place.
   and the plan you were on), and your onboarding progress record with the
   link to your account removed. Both are kept only as anonymous
   statistics.
+- Your onboarding progress record is kept while your account exists. Once
+  it is no longer linked to an account — because onboarding was abandoned,
+  or the account was deleted — it is removed after 12 months.
 - Feedback submissions you send are retained as long as we may need them
   to follow up, including any screenshot you attached. You can ask us to
   delete them at the contact address above.
